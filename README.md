@@ -4,7 +4,7 @@ Magician WriteUp
 
 
 
-![magic_in_hands_img.jpeg](../_resources/b9007b3fbe244fa2a93923cbbeec6b0f.jpeg)
+![magic_in_hands_img.jpeg](b9007b3fbe244fa2a93923cbbeec6b0f.jpeg)
 
 
 
