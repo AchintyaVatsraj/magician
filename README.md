@@ -297,9 +297,10 @@ Again , there is no pressure , learn at your own pace 👍
 ........
 ....................
 
-Okay , you should be done by now , so here is how it's goona go .
+Okay , you should be done by now , so here is how it's going to go .
 
-we'll create a tunnel between  the  **Victim Machine**'s IP at port 6666 to one of our ports becuase we are on the same extrenal network , as long as  one of the users on the  **Victim Machine** binds this system's Port number 6666 to one of our systems network ports , technically we should be able to just goto our port and view the sensitive content. Please notes this is neat way to bypass some dumb firewalls solutions to perform horizontal Privilage Escalation and Sensitive Data Exposure.
+we'll create a tunnel between  the  **Victim Machine**'s IP at port 6666 to one of our ports becuase we are on the same extrenal network , as long as  one of the users on the  **Victim Machine** binds this system's Port number 6666 to one of our systems network ports , technically we should be able to just goto our port and view the sensitive content. Please notes this is neat way to bypass some dumb firewalls solutions to perform horizontal 
+Privilege escalation and Sensitive Data Exposure.
 
 we'll use a industry standard tool for this called **Chisel** . 
 
