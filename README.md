@@ -101,14 +101,14 @@ just google **"ImageMagick"** to learn more about it
 
 So , now that we have some general idea about what exactly this piece of software is , let's start finding issues in it , after a simple google search about **"common php vulnerabilities"** , we notice that we have something called **"insecure file upload"** in *PHP*. 
 
-Now, here comes another chance , to learn about a truy amazing resource on the internet which i will come back to later **[GO HERE](https://github.com/swisskyrepo/PayloadsAllTheThings)**
+Now, here comes another chance , to learn about a truly amazing resource on the internet which i will come back to later **[GO HERE](https://github.com/swisskyrepo/PayloadsAllTheThings)**
 
 now , back on topic let's google , **"ImageMagick exploit"** to find any publicly available exploit code for it that *maybe* we can use. 
 
 you will see several references to a popular exploit technique . one such is  [here](https://rhinosecuritylabs.com/research/imagemagick-exploit-remediation/)
 
 
-let's inspire and challenge ourselfs and make our **own Exploit Code**
+let's **Try Harder** and challenge ourselfs to make our **own Exploit Code**
 
 
 **push graphic-context
