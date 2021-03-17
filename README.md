@@ -30,7 +30,7 @@ let's start by adding an entry to /etc/hosts ,
 
 
 
-![hosts.png](../_resources/25be6a50f5d6460e8f577980c114f261.png)
+![hosts.png](25be6a50f5d6460e8f577980c114f261.png)
 
 
 
@@ -57,13 +57,13 @@ So , we see two web server *like* ports open let's have a look in the browser.
 
 
 
-![8080-error.png](../_resources/7a9e32b258b74ccaa3b3be2e56b99e80.png)
+![8080-error.png](7a9e32b258b74ccaa3b3be2e56b99e80.png)
 
 We can see  that we get a error at port 8080! shoot , well tough luck , let's try another port ie. 8081 at **http://magician:8081**
 
 
 
-![imagemagick.png](../_resources/d77cebd8d5ce46c39959d9038dc3cf5f.png)
+![imagemagick.png](d77cebd8d5ce46c39959d9038dc3cf5f.png)
 
 we see an application load up on this port! Nice!
 
@@ -84,7 +84,7 @@ OKAY, so assuming you've been a good and curious student 😉 ,  let's go ahead 
 google **"PNG to JPG converter exploit "**, to see of some known vulnerabilities known for this *application/software/implementation* , you should see something like this, 
 
 
-![google1.png](../_resources/13b93943239e4621b74fba7e802bdaf7.png)
+![google1.png](13b93943239e4621b74fba7e802bdaf7.png)
 
 wow , that's a lot of weird references to something called **"ImageMagick"**, let's research first what it is!
 
@@ -95,7 +95,7 @@ just google **"ImageMagick"** to learn more about it
 
 
 
-![wiki-imagemagisck.png](../_resources/08e53a7bf16443fab5bd2679b6206ea2.png)
+![wiki-imagemagisck.png](08e53a7bf16443fab5bd2679b6206ea2.png)
 
 
 
@@ -122,7 +122,7 @@ write this in any text editor (sublime recommended) and save it as **reverse.png
 
 
 
-![rev1.png](../_resources/45bc27676e72489180fd3deb8a0ba849.png)
+![rev1.png](45bc27676e72489180fd3deb8a0ba849.png)
 
 
 
@@ -165,7 +165,7 @@ Make a file called **shell.png** and load our payload in it and open it up in an
 
 
 
-![finalshell.png](../_resources/71f2521c3347470ca8c29b819e35ae9d.png)
+![finalshell.png](71f2521c3347470ca8c29b819e35ae9d.png)
 
 
 
@@ -195,7 +195,7 @@ After you have ran these cmds in the order shown above , you should have a fairl
 
 
 
-![shellachived.png](../_resources/8dfc7f6da949479fb3feefbde6636501.png)
+![shellachived.png](8dfc7f6da949479fb3feefbde6636501.png)
 
 
 
@@ -207,7 +207,7 @@ now goto /home/magician
 
 
 
-![userflagvisible.png](../_resources/31fd35997b6a4410909e827e716de192.png)
+![userflagvisible.png](31fd35997b6a4410909e827e716de192.png)
 
 Finally , we can see a **user.txt** flag on the system!!!
 
@@ -217,7 +217,7 @@ let's read it
 
 
 
-![usertxt.png](../_resources/9389e34d029f488fac3c6df0708d6e20.png)
+![usertxt.png](9389e34d029f488fac3c6df0708d6e20.png)
 
 WE GOT THE FLAG!!!!!!!
 
@@ -231,7 +231,7 @@ let's try reading it !
 
 
 
-![magiccontinues.png](../_resources/2312be9c3fa1479ead94feeace1c5230.png)
+![magiccontinues.png](2312be9c3fa1479ead94feeace1c5230.png)
 
 hmm, it says there is a port on the system?? a cat software running ?? there are a lot of unanswered questions , it looks like this file won't be of much help , let's try some basic linux information gathering. 
 
@@ -256,7 +256,7 @@ this command will show us active tunnels and connections and is seriously someth
 
 
 
-![tunlist.png](../_resources/084d10861b8f4dc19a772f8697b423d7.png)
+![tunlist.png](084d10861b8f4dc19a772f8697b423d7.png)
 
 all these ports look normal 53 is DNS , we saw 8081 before in our nmap scan and 8080 is running a web service and 21 has the ftp service , so there is only one in this crowrd who is unaccounted for and that is **6666** .
 
@@ -264,7 +264,7 @@ all these ports look normal 53 is DNS , we saw 8081 before in our nmap scan and 
 
 
 
-![connrefused.png](../_resources/1111ba7639a34e52a08d759d4e334526.png)
+![connrefused.png](1111ba7639a34e52a08d759d4e334526.png)
 
 
 
@@ -326,7 +326,7 @@ Then on the **Victim Machine** on the shell , we do ,
 
 
 
-![download.png](../_resources/5470ae4dafba4505bf1ae9ee67fc874f.png)
+![download.png](5470ae4dafba4505bf1ae9ee67fc874f.png)
 
 
 The chisel binary will download on the victim machine. 
@@ -350,7 +350,7 @@ You should see a output on the shell , similar to this
 
 
 
-![chiselsuccess.png](../_resources/680533175f8e4c8ebc455f776a714e83.png)
+![chiselsuccess.png](680533175f8e4c8ebc455f776a714e83.png)
 
 Without touching any of your shells and terminal , open a browser and goto **http://Attacker_IP:4433**
 
@@ -359,7 +359,7 @@ You should see something amazing pop-up!!!
 
 
 
-![chiselOUTPUT.png](../_resources/3e63ecd8fa244ec0bccfb0e1bd7a7d45.png)
+![chiselOUTPUT.png](3e63ecd8fa244ec0bccfb0e1bd7a7d45.png)
 
 
 🥳🥳🥳🥳🥳
@@ -437,7 +437,7 @@ and we get the FLAG!!!
 
 
 
-![roottxt.png](../_resources/62a77ee4121e49309fcbfb483927673f.png)
+![roottxt.png](62a77ee4121e49309fcbfb483927673f.png)
 
 
 That's it submit both the flags on TryHackMe and you are done!!!
