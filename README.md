@@ -417,7 +417,7 @@ This is the decrypted Output , there is some interesting stuff here but it is cl
 According to the TryHackMe page for this machine , we need to read a file called **root.txt**
 which is protected by the root user.
 
-so , let's try `/root/root/txt` 
+so , let's try `/root/root.txt` 
 
 and hit submit a few times to see if we can get a base64 for this file 
 
