@@ -176,7 +176,7 @@ we can easily see a lot of input confusion and [piping](https://www.geeksforgeek
 
 next we just check if our netcat setup is running and if everything is ready , we start to upload this file on http://magician:8081 
 
-immediatly after uploading (assuming inside shell.png you correct tryhackme tun0 IP is mentioned) you'll see a shell pop up on your system!
+immediatly after uploading (assuming inside shell.png your correct tryhackme tun0 IP is mentioned) you'll see a shell pop up on your system!
 
 CONGRATULATIONS! 🥳 
 
